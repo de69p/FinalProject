@@ -1,0 +1,25 @@
+{
+  "cv_folds": 2,
+  "random_state": 42,
+  "model_layers": [
+    128,
+    64
+  ],
+  "activation": "swish",
+  "dropout_rates": [
+    0.15,
+    0.1
+  ],
+  "use_batch_norm": true,
+  "use_dropout": true,
+  "learning_rate": 0.005,
+  "l2_reg": 0.001,
+  "resnet_blocks": 3,
+  "epochs": 100,
+  "batch_size": 128,
+  "use_shap": false,
+  "plot_features": [
+    "Log_Price",
+    "Price_USD"
+  ]
+}
