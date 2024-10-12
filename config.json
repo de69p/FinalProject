@@ -18,8 +18,5 @@
   "epochs": 100,
   "batch_size": 128,
   "use_shap": false,
-  "plot_features": [
-    "Log_Price",
-    "Price_USD"
-  ]
+  "plot_features": []
 }
